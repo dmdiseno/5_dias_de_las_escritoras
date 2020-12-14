@@ -1,0 +1,364 @@
+ /*---------------------------------ciertas modificaciones--------------*/
+ body{ 
+    width: 80%;
+    margin: auto;
+    background: #f1f1f1;
+}
+hr{
+    height: 3px;
+    background-color: cornsilk;
+}
+h1, h2 {
+    font-family: 'Grand Hotel', cursive;
+}
+h3, h4 {
+    font-family: 'Crimson Text', serif;
+}
+/*---------------------------------------------INDEX-------------------------*/
+/*----------------------HEADER------------------*/
+header, article, aside, footer {
+    font-family: 'Mukta Vaani', sans-serif;
+}
+header{
+    width: 100%;
+    height: auto;
+    }
+.nav ul {
+    margin-top: 20px;
+}
+.navprincipal ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.navprincipal li a {
+    text-decoration: none;
+    color: cornsilk;
+    background: #333333;
+    border-radius: 4px;
+    padding: 5px;
+}
+.navprincipal li a:hover{
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+/*-----------------ARTICLE-------------*/
+.main {
+    background: #333333; color: cornsilk;
+    margin-bottom: 10px;
+}
+
+.main .sec, .titulo, blockquote {
+    margin-top: 20px;
+    text-align: center;
+}
+.main h3, h4 {
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.main p {
+    line-height: 2rem;
+}
+.main p a {
+    text-decoration: underline;
+    color: #E6DE63;
+}
+.main .sec blockquote {
+    height: 60vh;
+    margin-top: 35px;
+    background: #E0DCAB;
+    color: #333333;
+    text-decoration: none;
+    box-sizing: content-box;
+}
+.main .sec a {
+    text-decoration: none;
+    color:  #E0DCAB;
+    background: #333333;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+.main .ediciones {
+    margin-top: 20px;
+    color: #E0DCAB;
+}
+.main .ediciones ul{
+    margin-top: 40px;
+}
+.main .ediciones ul li{
+    list-style: none;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.main .ediciones ul li a {
+    background: #E0DCAB;
+    color: #333333;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 5px 5px;
+    border-radius: 4px;
+}
+.main ul li a:hover{
+    background: #333333;
+    color:  #E0DCAB;
+    transition: all 350ms;
+}
+
+
+/*-------------ASIDE---------------------------*/
+aside {
+    width: 100%;
+    color: cornsilk;
+}
+.figure{
+    margin-bottom: 10px;
+}
+.figure a {
+    color: #333333;  
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: rgb(238, 221, 190);
+    border-radius: 3px;
+}
+.figure a:hover{
+    background: #333333;
+    color: cornsilk;
+    transition: all 350ms;
+}
+
+.fi1, .fi2, .fi3, .fi4 {
+    background: chocolate;
+}
+.fi1 h3 {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #212224;
+}
+.fi1 h4 {
+    font-family: 'Mukta Vaani', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    color: #212224;
+}
+
+.fi1 img {
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+
+
+/*-------------------FOOTER--------------------*/
+footer {
+    color: #333333;
+
+}
+/*------------------ALMUDENA GRANDES---------------------*/
+
+/*----------------HEADER--------------------------*/
+body {
+    background: #f1f1f1;
+}
+.hag img{
+    width: 100%;
+}
+
+nav ul {
+margin-top: 20px;
+}
+ .navprincipal li{
+    display: inline;
+    margin-right: 20px;
+}
+.navprincipal li a {
+    text-decoration: none;
+    color: cornsilk;
+    background: #333333;
+    border-radius: 4px;
+    padding: 5px;
+}
+.navprincipal li a:hover{
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+/*-------------------------------ARTICLE-----------------------*/
+
+article .textoprincipal {
+    height: 65vh;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+article .image figcaption {
+    list-style: none;
+}
+article .image figcaption a {
+    text-decoration: none;
+    color: cornsilk;
+    border-radius: 4px;
+    padding: 5px;
+    background: #333333  
+}
+article .image figcaption a:hover{
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+article section.una {
+    margin-bottom: 20px;
+    background: #74bdb91e;
+    }
+article section.dos {
+margin-bottom: 20px;
+background: #74bdb91e;
+
+}
+article section.una h3 {
+    font-family: 'Grand Hotel', cursive;
+    padding-left: 8px;
+
+}
+article section.una blockquote {
+    list-style: none;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 8px;
+}
+article section.una blockquote a {
+    color: cornsilk;
+    background: #333333;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+
+}
+article section.una blockquote a:hover {
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+article section.dos h3 {
+    padding-left: 8px;
+    font-family: 'Grand Hotel', cursive;
+    margin-bottom: 20px;
+}article section.dos li {
+    line-height: 30px;
+    list-style: none;
+}
+article section.dos a {
+    color: cornsilk;
+    background: #333333;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+article section.dos a:hover {
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+
+article figure {
+    color: #333333;
+}
+article .image img{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+article figure figcaption {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+article figure figcaption h4{
+    text-align: left;
+    font-size: 1rem;
+}
+
+/*---------------------------FOOTER--------------------*/
+footer {
+    margin-bottom: 10px;
+    background: #8ebdd3b4;
+}
+footer section h3, h4 {
+    text-align: left;
+} 
+footer section h3 {
+    font-size: 1.4rem;
+}
+footer section h4 {
+    padding: 2px;
+    }
+footer section h4 i {
+    margin-right: 15px;
+}
+footer section h4 a {
+    font-size: 1rem;
+    color: cornsilk;
+    border-radius: 4px;
+    padding: 5px;
+    background: #333333 
+
+}
+footer section h4 a:hover{
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+footer img {
+    padding-top: 30px;
+}
+/*---------------------------MARIA BLAZQUEZ ALONSO-------------------*/
+article {
+    margin-bottom: 30px;
+}
+article .biografia p {
+    text-align: left; 
+    text-align: justify;
+    padding: 8px;
+    height: 102vh;
+}
+article .una p{
+    list-style: none;
+}
+article .biografia a {
+    font-size: 1rem;
+    color: cornsilk;
+    border-radius: 4px;
+    padding: 10px;
+    background: #333333 
+}
+article .biografia a:hover{
+    background: #3333334d;
+    color: #333333;
+    transition: all 350ms;
+}
+
+article .reconocimientos blockquote{
+    text-align: left; 
+    text-align: justify;
+    padding: 8px;
+    height: 100vh;
+}
+/*------------------------CONTACTO------------------*/
+
+
+
+
+
+
+
+
+
+
